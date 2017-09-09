@@ -3,6 +3,7 @@ var option = prompt('Select your operation: \n' +
 		's - Subtraction \n' +
 		'm - Multiplication \n' +
 		'd - Division \n'  +
+		'------ADVANCED------- \n' +
 		'sq - Square Root \n' +
 		'pw - Power');
 
@@ -61,7 +62,7 @@ if (option === 'a') {
 
 } else if (option === 'pw') {
 	var num = prompt('Type in your number: ');
-	var power = prompt('Power to the number: ');
+	var power = prompt('To the power of: ');
 
 	num = parseFloat(num);
 	power = parseFloat(power);
